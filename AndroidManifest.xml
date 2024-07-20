@@ -40,6 +40,9 @@
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
             </intent-filter>
             <meta-data
+                android:name="com.android.settings.order"
+                android:value="-265" />
+            <meta-data
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_oplus_extras" />
             <meta-data
